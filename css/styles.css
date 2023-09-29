@@ -123,6 +123,10 @@ nav{
 /*section one*/
 .solutions{
     background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/solutions/people-office\ 1-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding: 188px 0;
 }
