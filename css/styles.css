@@ -171,12 +171,16 @@ nav{
     width: calc((100% - 72px) / 4);
 }
 .plan_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 264px;
     height: 112px;
     flex-shrink: 0;
     border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    background: var(--CLOUD, #F4F4FD);}
+    border: 1px solid  #8E8F99;
+    background: #F4F4FD;
+}
 .plan_icons{
 
 }
@@ -329,9 +333,6 @@ display: block;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-.social_media{
-}
-
 .basement_titl{
     color: #FFF;
     font-size: 16px;
@@ -340,5 +341,4 @@ display: block;
     line-height: 150%; 
     letter-spacing: 0.32px;
     padding-bottom: 16px;
-
 }
