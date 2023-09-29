@@ -300,12 +300,15 @@ display: block;
 
 /*footer*/
 .basement .container{
-    display: block;
+    display: flex;
 }
 .basement{
     background-color:  #2e2f42;
     min-height: 312px;
     padding: 100px 0
+}
+.basement_description{
+    margin-right: 120px;
 }
 .basement_link{
     display: inline-block;
@@ -325,4 +328,17 @@ display: block;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.social_media{
+}
+
+.basement_titl{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    letter-spacing: 0.32px;
+    padding-bottom: 16px;
+
 }
