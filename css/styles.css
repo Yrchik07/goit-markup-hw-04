@@ -101,7 +101,7 @@ nav{
 .navigation_link{
     position: relative;
     font-weight: 500;
-    color:  #2e2f42;
+    color:  #404bbf;
     letter-spacing: 0.02em;
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -133,9 +133,6 @@ nav{
     letter-spacing: 0.02em;
     color:  #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
-.contact_link .tel{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*main*/
 /*section one*/
