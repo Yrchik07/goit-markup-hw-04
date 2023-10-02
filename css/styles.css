@@ -320,7 +320,7 @@ display: block;
     position: relative;
     overflow: hidden;
 }
-.portfolio_img_box:hover, .portfolio_paragraph:hover{
+.portfolio_item:hover .portfolio_paragraph{
      transform: translateY(0);
 }
 .portfolio_paragraph{
