@@ -318,11 +318,9 @@ display: block;
     position: relative;
     overflow: hidden;
 }
-.portfolio_item:hover, .portfolio_box_paragraph{
+.portfolio_item:hover, .portfolio_paragraph{
     transform: translateY(0);
 } 
-.portfolio_box_paragraph{
-}
 .portfolio_paragraph{
     position: absolute;
     padding: 40px 32px; 
