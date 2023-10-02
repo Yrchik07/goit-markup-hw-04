@@ -394,7 +394,7 @@ display: block;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .social_media .list_social{
     padding: 0;
@@ -405,9 +405,4 @@ display: block;
 }
 .social_media .soc_link:focus {
     background-color: #31d0aa;
-}
-
-.social_media .soc_icon{
-    width: 24px;
-    height: 24px;
 }
