@@ -99,13 +99,27 @@ nav{
     color: #2e2f42;
 }
 .navigation_link{
+    display: block;
     position: relative;
     font-weight: 500;
-    color:  #404bbf;
+    color:  #2E2F42;
     letter-spacing: 0.02em;
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.navigation_link.current {
+    color: #404bbf;
+}
+ .navigation_link.current::after {
+    content: ''; 
+    position: absolute;  
+    left: 0; 
+    bottom: -1px; 
+    height: 4px; 
+    background-color: #404bbf; 
+    border-radius: 2px;  
+    width: 100%;
+    }
 .navigation_link:hover, .navigation_link:focus{
     color: #404bbf;
 }
@@ -116,7 +130,8 @@ nav{
     bottom: -1px;
     height: 4px; 
     background-color: #404bbf; 
-    border-radius: 2px; 
+    border-radius: 2px;
+    width: 100%;
 }
 .contact{
     font-style: normal;
@@ -192,7 +207,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 264px;
     height: 112px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -306,7 +320,6 @@ display: block;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1440px;
-    text-align: center;
     row-gap: 48px;
     column-gap: 24px;
 }
